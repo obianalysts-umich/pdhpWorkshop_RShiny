@@ -1,4 +1,5 @@
 navbarPage(title = "California County Rankings Dashboard",
+           theme = shinythemes::shinytheme("lumen"),
 
     tabPanel("Welcome",
         "Welcome to the R-Shiny California County Rankings Dashboard"

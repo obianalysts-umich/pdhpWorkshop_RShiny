@@ -6,7 +6,7 @@ function(input, output){
     })    
     
     all_cali_ref_rate = reactive({ 
-        data_sub() %>% 
+        data_sub() %>% # note we have to call this like a function
             filter(County == "CALIFORNIA") %>%
             pull(Rate.Percentage)
     })

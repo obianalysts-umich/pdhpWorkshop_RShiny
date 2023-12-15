@@ -6,11 +6,11 @@ fluidPage(title = "Examples of Shiny Inputs",
     h2("Examples of Shiny Inputs"),      
           
     selectInput(
-        inputId = "selectinput",
-        label = "Select Input",
+        inputId = "selectinput", # identifies user input, used as a reference tag later
+        label = "Select Input", # label that displays on the ap
         choices = choices,
-        selected = "Option A",
-        multiple = FALSE
+        selected = "Option A", # which option is selected by default
+        multiple = FALSE # ca use rselect multiple options?
     ),
     
     radioButtons(

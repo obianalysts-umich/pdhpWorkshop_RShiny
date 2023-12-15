@@ -4,7 +4,7 @@ function(input, output){
         paste0("You have selected ", input$year,
                " and ", input$selected_outcome
         )
-    })
+    }) # note the ( and {; think of this more as defining as function than calling a function
     
     output$output_table = renderTable({
         

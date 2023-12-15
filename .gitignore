@@ -2,3 +2,5 @@
 *.csv
 *.DS_Store
 *.Rapp.history
+*.Rproj
+*.Rproj.user
